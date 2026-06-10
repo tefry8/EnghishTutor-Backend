@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Alembic migration logs
+alembic/versions/*.pyc
+
+# Database files
+*.sqlite3
+*.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage outputs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Node (if present)
+node_modules/
+
+# Alembic migration logs (keep migration scripts, ignore pyc)
+alembic/versions/*.pyc
+
+# Uvicorn/Starlette logs
+*.pid
+
+# Others
+*.bak
+*.swp
+
+# Ignore local data
+local_data/
+
+# Ignore coverage reports
+coverage.xml
+
+# Ignore compiled files
+*.pyo
+
+# Ignore test output
+.testoutput/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pip cache
+pip-wheel-metadata/
+
+# Ignore backup files
+*~
+
+# Ignore package lock files (if using pipenv/poetry)
+Pipfile.lock
+poetry.lock
+
+# Ignore dump files
+*.dump
+
+# Ignore secret files
+secrets.json
+
+# Ignore docker files (if not using docker)
+Dockerfile*
+.dockerignore
+
+# Ignore static/media (if generated locally)
+static/
+media/
